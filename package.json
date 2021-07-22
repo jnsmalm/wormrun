@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack-dev-server --open",
+    "serve": "webpack-dev-server --open",
+    "build": "webpack",
     "packsounds": "audiosprite --format howler2 --output assets/sounds ./sounds/*.wav"
   },
   "author": "",
